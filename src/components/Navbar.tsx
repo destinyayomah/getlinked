@@ -43,7 +43,7 @@ const Navbar = () => {
             </Show>
         </HStack>
 
-        <Divider border='none' style={{ borderTop: '1px solid #FFFFFF' }} />
+        <Divider border='none' style={{ borderTop: '1px solid #1F1931' }} />
 
         <Show below="md">
             <VStack
@@ -79,10 +79,12 @@ const Navbar = () => {
                         onClick={() => setIsMenuVisible(false)}
                     />
                 </Box>
+
                 <Text>Timeline</Text>
                 <Text>Overview</Text>
                 <Text>FAQs</Text>
                 <Text>Contact</Text>
+                
                 <Button
                     bgGradient='linear-gradient(to-r, #CB3AFF, #D434FE, #FE34B9)'
                     color='white'
