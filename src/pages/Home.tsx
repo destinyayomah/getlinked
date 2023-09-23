@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Hero from "./Hero"
 import Introduction from "./Introduction"
+import Judge from "./Judge"
 import Rules from "./Rules"
 
 
@@ -10,6 +11,7 @@ const Home = () => {
         <Hero />
         <Introduction />
         <Rules />
+        <Judge />
     </>
 }
 
