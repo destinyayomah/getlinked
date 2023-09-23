@@ -52,11 +52,12 @@ const Navbar = () => {
                 bg={primaryColor}
                 color='white'
                 padding='30px 10%'
-                transform={`translateY(${isMenuVisible ? '0%' : '-0%'})`}
-                transition='transform 0.3s cubic-bezier(0.22, 1, 0.36, 1)'
+                transition='height 0.5s cubic-bezier(0.22, 1, 0.36, 1)'
                 visibility={isMenuVisible ? 'visible' : 'hidden'}
                 position={isMenuVisible ? 'relative' : 'absolute'}
                 opacity={isMenuVisible ? '1' : '0'}
+                height={isMenuVisible ? '100vh' : '0'}
+                overflow='hidden'
             >
                 <Box
                     bgGradient='linear-gradient(to-b, #903AFF, #FF26B9)'
