@@ -1,8 +1,9 @@
 import Navbar from "../components/Navbar"
-import Hero from "./Hero"
-import Introduction from "./Introduction"
-import Judge from "./Judge"
-import Rules from "./Rules"
+import Introduction from "../components/Introduction"
+import Hero from "../components/Hero"
+import Rules from "../components/Rules"
+import Judge from "../components/Judge"
+import Faq from "../components/Faq"
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Introduction />
         <Rules />
         <Judge />
+        <Faq />
     </>
 }
 
