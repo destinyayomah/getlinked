@@ -1,6 +1,5 @@
-import { Box, Divider, HStack, Hide, Show, Stack, Text, VStack } from "@chakra-ui/react"
+import { Box, Divider, Stack, Text } from "@chakra-ui/react"
 import { primaryColor } from "../App"
-import TimeLineCounter from "./TimeLineCounter"
 import TImelineItemLeft from "./TImelineItemLeft"
 import TImelineItemRight from "./TimelineItemRight"
 
