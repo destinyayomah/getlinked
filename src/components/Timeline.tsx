@@ -28,34 +28,6 @@ const Timeline = () => {
                     count={2}
                     date="November 18, 2023"
                 />
-
-                {/* <HStack alignItems='end'>
-                    <Text flex='2' textAlign='right' color='#D434FE' fontWeight='bold' fontSize={{ base: '20px', md: '24px' }}>November 18, 2023</Text>
-
-                    <VStack flex='1'>
-                        <Divider orientation="vertical" height='100px' borderLeft='4px solid #D434FE' />
-
-                        <Box
-                            bgGradient='linear-gradient(to-b, #903AFF, #D434FE)'
-                            color='white'
-                            width='53px'
-                            height='53px'
-                            display='flex'
-                            justifyContent='center'
-                            alignItems='center'
-                            borderRadius='50%'
-                            fontSize='24px'
-                            fontWeight='bold'
-                        >
-                            2
-                        </Box>
-                    </VStack>
-
-                    <VStack textAlign='left' flex='2'>
-                        <Text width='100%' color='#D434FE' fontWeight='bold' fontSize={{ base: '20px', md: '24px' }}>Teams Registration begins</Text>
-                        <Text width='100%'>Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register</Text>
-                    </VStack>
-                </HStack> */}
             </Stack>
         </Stack>
 

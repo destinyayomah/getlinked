@@ -12,7 +12,7 @@ const TImelineItemLeft = ({ heading, desc, count, date }: Props) => {
     return <>
         <HStack alignItems='end' spacing='50px'>
             <Show above="md">
-                <VStack textAlign='right' flex='1'>
+                <VStack textAlign='right' flex='0.8'>
                     <Text width='100%' color='#D434FE' fontWeight='bold' fontSize={{ base: '20px', md: '24px' }}>{heading}</Text>
                     <Text width='100%'>{desc}</Text>
                 </VStack>
@@ -22,7 +22,7 @@ const TImelineItemLeft = ({ heading, desc, count, date }: Props) => {
                 <VStack>
                     <Divider orientation="vertical" borderLeft='2px solid #D434FE' height='100px' />
 
-                    <TimeLineCounter count={count} />
+                    <TimeLineCounter count={count} /> 
                 </VStack>
 
                 <VStack spacing='20px' alignItems='start'>
