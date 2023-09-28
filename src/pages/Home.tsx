@@ -5,6 +5,7 @@ import Rules from "../components/Rules"
 import Judge from "../components/Judge"
 import Faq from "../components/Faq"
 import Timeline from "../components/Timeline"
+import Rewards from "../components/Rewards"
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <Judge />
         <Faq />
         <Timeline />
+        <Rewards />
     </>
 }
 
